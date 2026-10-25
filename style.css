@@ -1,0 +1,256 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #0b0b14;
+    color:#ffffff;
+    font-family:Arial,sans-serif;
+     line-height: 1.6;  
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 8%;  
+    background-color: #20203c;  
+}
+header h3{
+    color:#a970ff;
+    font-size: 24px;
+}
+nav a{
+    color:#ffffff;
+    text-decoration: none;
+    margin-left: 25px;
+    transition: color 0.3s ease;
+    
+}
+nav a:hover{
+    color:#a970ff;
+}
+.hero{
+    min-height: 85vh;
+    display: flex;
+    align-items:center;
+    padding:60px 8%;
+}
+.hero-content {
+    max-width: 750px;
+}
+.intro {
+    color: #a970ff;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    margin-bottom: 15px;
+}
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 15px;
+}
+.hero h1 span {
+    color: #a970ff;
+}
+.hero h2 {
+    color: #c5c5d2;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+.description {
+    color: #a5a5b5;
+    font-size: 16px;
+    max-width: 650PX;
+    margin-bottom: 30px;
+}
+.project-btn {
+    display: inline-block;
+    background-color: #a970ff;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 12px 25px;
+    border-radius: 6px;
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+.project-btn:hover {
+    background-color: #8b4de8;
+    transform: translateY(-3px);
+}
+.about{
+    min-height: 85vh;
+    padding:60px 8%;
+}
+.about h1{
+    color: #a970ff;
+    font-size: 48px;
+    text-align: left;
+    margin-bottom: 15px;
+}
+.about p {
+    color: #a5a5b5;
+    font-size: 16px;
+    text-align: left;
+    max-width: 750px;
+    margin-bottom: 30px;
+}
+.my-skills{
+    min-height: 85vh;
+    padding:60px 8%;
+}
+.my-skills h1{
+    color: #a970ff;
+    font-size: 48px;
+    text-align: left;
+    margin-bottom: 15px;
+}
+.skill-container{
+   
+    display: flex;
+    gap:20px;
+    align-items: stretch;
+    justify-content: space-between;
+}
+.skills{
+    background-color:#1b1b5a ;
+    color:#a5a5b5;
+    border:1px solid #8b4de8;
+    margin:15px;
+    padding:10px;
+    flex:1;
+    border-radius: 10px;
+   transition: 0.3s; 
+}
+.skills:hover{
+    color:#ffffff;
+    transform: translateY(-5px);
+    background-color: #4d27da;
+    box-shadow: 0px 0px 30px rgb(189, 89, 236);
+}
+.future-plan{
+    min-height: 85vh;
+    padding:60px 8%;
+}
+.future-plan h1{
+    color: #a970ff;
+    font-size: 48px;
+    text-align: left;
+    margin-bottom: 15px;
+}
+.projects{
+    min-height: 85vh;
+    padding: 60px 8%;
+}
+.projects h1{
+    color: #a970ff;
+    font-size: 48px;
+    text-align: left;
+    margin-bottom: 15px;
+}
+.project-container{
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    gap: 20px;
+}
+.project{
+    background-color:#1b1b5a ;
+    color:#a5a5b5;
+    border:1px solid #8b4de8;
+    margin:15px;
+    padding:10px;
+    flex:1;
+    border-radius: 10px;
+    transition: 0.3s; 
+}
+.project:hover{
+    color:#ffffff;
+    transform: translateY(-5px);
+    background-color: #4d27da;
+    box-shadow: 0px 0px 30px rgb(189, 89, 236);
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 8%;  
+    background-color: #2a2a4f;  
+}
+footer h3{
+    color:#a970ff;
+    font-size: 24px;
+}
+.contacts a{
+   
+    color:#ffffff;
+    text-decoration: none;
+    margin-left: 25px;
+    transition: color 0.3s ease;
+    
+}
+.contacts a:hover{
+    color:#a970ff;
+}
+
+
+
+
+
+
+@media (max-width: 600px) {
+    header {
+        padding: 20px 5%;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    header h3 {
+        font-size: 18px;
+    }
+    nav{
+        display:flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap:12px;
+    }
+
+    nav a {
+        margin-left: 0;
+        font-size: 12px;
+    }
+
+    .hero {
+        padding: 50px 5%;
+        min-height: 80vh;
+    }
+
+    .hero h1 {
+        font-size: 32px;
+    }
+
+    .hero h2 {
+        font-size: 18px;
+    }
+
+    .description {
+        font-size: 14px;
+    }
+
+    .project-btn {
+        padding: 10px 18px;
+    }
+    footer{
+        padding: 18px 5%;
+        flex-direction: column;
+        gap: 15px;
+        flex-wrap: wrap;
+    }
+    footer h3{
+        font-size: 16px;
+    }
+
+}
