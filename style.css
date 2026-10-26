@@ -252,11 +252,24 @@ footer h3{
     .project-btn {
         padding: 10px 18px;
     }
+    .my-skills{
+        padding: 40px 5%;
+    }
+    .my-skills h1{
+        font-size: 35px;
+    }
+    .skill-container{
+        flex-direction: column;
+    }
+    .project-container{
+        flex-direction: column;
+    }
     footer{
+        display: flex;
         padding: 18px 5%;
         flex-direction: column;
-        gap: 15px;
         flex-wrap: wrap;
+        gap: 12px;
     }
     footer h3{
         font-size: 16px;
