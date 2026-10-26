@@ -167,6 +167,15 @@ nav a:hover{
     border-radius: 10px;
     transition: 0.3s; 
 }
+.project a{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+}
+.project a:hover{
+    color:#15ec27;
+}
 .project:hover{
     color:#ffffff;
     transform: translateY(-5px);
